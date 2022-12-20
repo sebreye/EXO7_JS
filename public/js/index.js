@@ -42,17 +42,17 @@ if (resultat2 == nombre4 * nombre5) {
   alert(`C'est dommage, tu n'étais qu'à ${ecart} unité(s) de la bonne réponse.`);
 }
 
-let monTableau = [];
+let Tableau = [];
 
 
-while (monTableau.length < 3) {
+while (Tableau.length < 3) {
 
   let element = prompt("Entrez un élément pour le tableau :");
   
 
-  monTableau.push(element);
+  Tableau.push(element);
 }
-alert(`Le contenu du tableau est : ${monTableau}`);
+alert(`Le contenu du tableau est : ${Tableau}`);
 
 
 
