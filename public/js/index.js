@@ -4,15 +4,14 @@ console.log(c1==c2);
 console.log(c1===c2);
 
 
-// Demande le prénom de la personne
+
 let prenom = prompt("Entrez votre prénom :");
 
-// Vérifie si le prénom comporte moins de 5 caractères
 if (prenom.length < 5) {
-  // Affiche une alerte si le prénom est trop court
+
 alert("Ton nom est trop court");
 }
-// Génère deux nombres aléatoires entre 1 et 10
+
 let nombre1 = Math.floor(Math.random() * 10) + 1;
 let nombre2 = Math.floor(Math.random() * 10) + 1;
 
@@ -53,6 +52,7 @@ while (monTableau.length < 3) {
 
   monTableau.push(element);
 }
+alert(`Le contenu du tableau est : ${monTableau}`);
 
 
 
